@@ -1,0 +1,49 @@
+# Environment variables and API keys
+.env
+.env.*
+!.env.example
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Large/generated model files
+*.pt
+*.pth
+*.h5
+*.keras
+*.pkl
+*.joblib
+
+# Generated data/cache folders
+.cache/
+chromadb/
+chroma_db/
+vectorstore/
+outputs/
+runs/
+
+# Temporary files
+*.tmp
+*.bak
